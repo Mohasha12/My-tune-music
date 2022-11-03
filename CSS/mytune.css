@@ -1,0 +1,228 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    background-color: #333333;
+}
+nav{
+    /* border: 1px solid black; */
+    padding: 10px;
+    
+    background-color: #333333;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+#navi{
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    align-items: stretch; 
+}
+#mytu{
+    background-color: #333333;  
+    padding: 3px;
+}
+#mytu:hover{
+    transform: scale(2.5);
+}
+#over{
+    background-color: #333333;  
+    padding: 3px;
+}
+#over:hover{
+    transform: scale(2.5);
+}
+
+#mus{
+    background-color: #333333;  
+    padding: 3px;
+}
+#mus:hover{
+    transform: scale(2.5);
+}
+
+#vid{
+    background-color: #333333;  
+    padding: 3px;
+}
+#vid:hover{
+    transform: scale(2.5);
+}
+
+#gc{
+    background-color: #333333;  
+    padding: 3px;
+}
+#gc:hover{
+    transform: scale(2.5);
+}
+
+#navi>div>a{
+    text-decoration: none;
+    color: white;    
+}
+#agift{
+    word-spacing: 0%;
+}
+#mytunes{
+    border: 1px solid black;
+    /* position: relative; */
+    /* top: 60px; */
+    height: 700px;
+    text-align: center;
+    background-image: url("../IMG/showcasemytume.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#mth1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#mth2{
+    font-size: x-large;
+}
+#content1{
+    margin-top: 22%;
+    margin-left: 20%;
+    width: 925px;
+    line-height: 30px;
+}
+#music{
+    /* border: 1px solid black; */
+    /* position: relative;
+    top: 60px; */
+    height: 1200px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+#muh1{
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+#content2{
+    /* margin-top: 22%; */
+    margin-left: 20%;
+    width: 1050px;
+    line-height: 30px;
+}
+#musicbut{
+    padding: 20px;
+    background-color: red;
+    display: inline-block;
+}
+#musicbut>a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid red;
+}
+#video{
+    /* border: 1px solid black; */
+    /* position: relative;
+    top: 60px; */
+    height: 1300px;
+    text-align: center;
+    background-color: white;
+    color: #333333;
+}
+#content3{
+    padding: 20px;
+    margin-left: 10%;
+    width: 1075px;
+    line-height: 30px;
+}
+#videobut{
+    padding: 20px;
+    background-color: rgb(27, 31, 91);
+    display: inline-block;
+}
+#videobut>a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid rgb(27, 31, 91);
+}
+#dummy{
+    /* position: absolute; */
+    padding: 0px;
+    margin-top: 0px;
+    height: 400px;
+    text-align: center;
+    background-image: url("../IMG/section-bgmytune.jpeg");
+    color: white;
+    background-size: 100% 100%;
+}
+#content4{
+    /* border: 1px solid white; */
+    /* margin op: 40%; */
+    padding: 50px;
+    margin-left: 10%;
+    width: 1075px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+#giftcard{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    color: #333333;
+    display: inline-block;
+   
+}
+#subdiv1{
+   
+    text-align: left;
+}
+#gimg{
+    margin-left: 10%;
+    height: 500px;
+    width: 400px;
+}
+#content5{
+    position: absolute;
+    text-align: left;
+    margin-left: 40%;
+    height: 500px;
+    width: 750px;
+    top: 500%;
+    line-height: 140%;
+}
+#content5>a{
+    text-decoration: none;
+    color: #344f7a;
+   
+    font-size: xx-large;
+}
+#end{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    
+}
+#table1{
+      text-align: left;
+      margin-left:350px;
+
+}
+th , td, tr{
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+td>a{
+    text-decoration: none;
+    color: white;
+}
+
+
